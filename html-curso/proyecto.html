@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>proyecto</title>
+</head>
+<body>
+
+	<h1>registro</h1>
+	<form>
+		<div>
+			<label for="Nombre">Nombre</label>
+			<input type="text" name="Nombre" id="Nombre" placeholder="gleysmer" required="">
+			<label for="Apelido">Apellido</label>
+			<input type="text" name="Apellido" id="Apellido" placeholder="cede" renoquired="">
+		</div>
+		<div>
+			<label for="opcion-genero1">Hombre</label>
+			<input type="radio" name="radio-opcion" id="opcion-genero1" value="opcion1" required="">
+			<label for="opcion-genero2">Mujer</label>
+			<input type="radio" name="radio-opcion" id="opcion-genero2" value="opcion2" required="">
+			<label for="opcion-genero3">otro</label>
+			<input type="radio" name="radio-opcion" id="opcion-genero3" value="opcion3" required="">
+		</div>
+		<div>
+			<label for="email">email</label>
+			<input type="email" name="email" id="email" placeholder="gleismerco@gmail.com" required>
+			<label for="clave">contraseña</label>
+			<input type="password" name="clave" id="clave" pattern=".{6,12}" required title="tu contraseña debe contener entre 6 a 12 caracteres">
+			<div>
+				<label for="opcion-elegida">cumpleaños</label>
+				<select name="opcion-elegida" id="opcion-elegida">
+					<option value="0" selected disabled>mes</option>
+					<option value="1">enero</option>
+					<option value="2">febrero</option>
+					<option value="3">marzo</option>
+					<option value="4">abril</option>
+					<option value="5">mayo</option>
+					<option value="6">junio</option>
+					<option value="7">julio</option>
+					<option value="8">agosto</option>
+					<option value="9">septiembre</option>
+					<option value="10">octubre</option>
+					<option value="11">noviembre</option>
+					<option value="12">diciembre</option>
+
+				</select>
+
+				<select name="opcion-elegida-dia" id="opcion-elegida-dia">
+					<option value="0" selected disabled>Dia</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+
+				</select>
+				<select name="opcion-elegida-dia" id="opcion-elegida-año">
+					<option value="0" selected disabled>año</option>
+					<option value="1">1991</option>
+					<option value="2">1992</option>
+					<option value="3">1993</option>
+					<option value="4">1994</option>
+					<option value="5">1995</option>
+					<option value="6">1996</option>
+					<option value="7">1997</option>
+					<option value="8">1998</option>
+					<option value="9">1999</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+
+				</select>
+
+
+			</div>
+			<div>
+				<label for="validar">Acepto las condiciones de servicios</label>
+				<input type="checkbox" name="validar" id="validar" required>
+			</div>
+			<button>enviar</button>
+	</form>
+
+</body>
+</html>
